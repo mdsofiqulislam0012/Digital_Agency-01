@@ -6,9 +6,9 @@ import { Key, Menu, X } from 'lucide-react';
 const navItems = [
     {name: "Home", href: "#hero"},
     {name: "About", href: "#about"},
-    {name: "Skills", href: "#skills"},
-    {name: "Projects", href: "#projects"},
-    {name: "Contact", href: "#contact"}
+    {name: "Services", href: "#services"},
+    {name: "Our Word", href: "#our-work"},
+    {name: "Contact Us", href: "#contact-us"}
 ]
 
 export default function Navbar() {
@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className='container flex items-center
          justify-between'>
             <a href='#hero' className='text-xl font-bold text-primary flex itemscenter'>
-                <span className='relative z-10'><span className='text-glow text-foreground'>PedroTech</span>Portfolio</span>
+                <span className='relative z-10'><span className='text-glow text-foreground'>Digital</span>Agency</span>
             </a>
 
             {/* desktop verson */}
