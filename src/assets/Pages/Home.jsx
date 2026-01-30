@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar'
 import Hero from '../../components/HeroSection/Hero'
 import Trusted from '../../components/TrustedSection/Trusted'
 import ServicesSections from '../../components/ServicesSections/ServicesSections'
+import OurWork from '../../components/OurWork/OurWork'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero></Hero>
         <Trusted></Trusted>
         <ServicesSections></ServicesSections>
+        <OurWork></OurWork>
 
         {/* footer */}
     </div>

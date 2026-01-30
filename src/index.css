@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* dark and white mood niya kaj kore */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* ================= THEME ================= */
 @theme {
   --color-border: hsl(var(--border));
