@@ -3,6 +3,8 @@ import ThemeToggle from '../../components/ThemeToggle'
 import StarBackground from '../../components/StarBackground'
 import Navbar from '../../components/Navbar'
 import Hero from '../../components/HeroSection/Hero'
+import Trusted from '../../components/TrustedSection/Trusted'
+import ServicesSections from '../../components/ServicesSections/ServicesSections'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <Navbar></Navbar>
         {/* Main Content */}
         <Hero></Hero>
+        <Trusted></Trusted>
+        <ServicesSections></ServicesSections>
 
         {/* footer */}
     </div>
