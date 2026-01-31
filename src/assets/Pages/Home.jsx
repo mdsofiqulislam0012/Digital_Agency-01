@@ -6,6 +6,8 @@ import Hero from '../../components/HeroSection/Hero'
 import Trusted from '../../components/TrustedSection/Trusted'
 import ServicesSections from '../../components/ServicesSections/ServicesSections'
 import OurWork from '../../components/OurWork/OurWork'
+import TeamsSection from '../../components/TeamsSection/TeamsSection'
+import ContactSection from '../../components/ContactSection/Contact'
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
         <Trusted></Trusted>
         <ServicesSections></ServicesSections>
         <OurWork></OurWork>
+        <TeamsSection></TeamsSection>
+        <ContactSection></ContactSection>
 
         {/* footer */}
     </div>
